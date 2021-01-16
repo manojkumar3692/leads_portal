@@ -19,8 +19,10 @@ You will also see any lint errors in the console.
 
 ### Routes Available
 
-Open [http://localhost:3000] to view Lead Generator
-Open [http://localhost:3000/agent/manoj] (add any agent name in the last (random name))
+Open [http://localhost:3000] to view Lead Generator , 
+
+Open [http://localhost:3000/agent/manoj] (add any agent name in the last (random name)),
+
 Open [http://localhost:3000/leads] list all the leads 
 
 ### Addiotion Note
