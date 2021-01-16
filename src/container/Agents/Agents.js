@@ -54,7 +54,7 @@ class Agents extends PureComponent {
                     <span>ACTIVE LEADS</span>
                   </div>
                 </div>
-              </div
+              </div>
               <ListComponent data={this.state.leadData} agentId={this.props.match.params.id} />
             </div>
 

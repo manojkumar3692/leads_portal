@@ -90,7 +90,8 @@ class LeadGeneration extends PureComponent {
         'fullName': this.state.fullName,
         'email': this.state.email,
         'phoneNumber': this.state.phoneNumber,
-        'comments': this.state.comments
+        'comments': this.state.comments,
+        'isClaim': false
       }
       let leadGenerationForm = JSON.parse(localStorage.getItem('privyr')) || [];
         leadGenerationForm.push(leadObj);

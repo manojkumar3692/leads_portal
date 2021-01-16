@@ -22,6 +22,7 @@ class ListComponent extends PureComponent {
     setLeadData[index]['claimedBy'] = this.props.match.params.id
     localStorage.setItem('privyr', JSON.stringify(setLeadData));
     this.setState({leadData: setLeadData})
+    alert('You have claimed successfully , Redirect to /leads')
     }
   }
 
