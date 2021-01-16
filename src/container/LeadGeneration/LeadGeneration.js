@@ -27,16 +27,11 @@ class LeadGeneration extends PureComponent {
     this.handleSubmit = this.handleSubmit.bind(this)
     this.handleChange = this.handleChange.bind(this)
     this.validateForm = this.validateForm.bind(this)
-    // this.saveLeadGeneration = this.saveLeadGeneration.bind(this)
   }
 
   componentDidMount() {
-    // var leadGenerationForm = JSON.parse(localStorage.getItem('privyr'));
-    // console.log('Check on Compoent', typeof leadGenerationForm)  
-    // console.log('Check on Compoent',  leadGenerationForm)  
+ 
   }
-
-
 
   validateForm = (errors) => {
     let valid = true;

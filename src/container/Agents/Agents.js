@@ -54,33 +54,8 @@ class Agents extends PureComponent {
                     <span>ACTIVE LEADS</span>
                   </div>
                 </div>
-              </div>
+              </div
               <ListComponent data={this.state.leadData} agentId={this.props.match.params.id} />
-              {/* {
-                this.state.leadData.map((lead, index) => {
-                  return (
-                    <div className="screen-list" key={index}>
-                      <div className="screen-image">
-                        <img src={'../../images/lead-icon-png-29.jpg'}></img>
-                      </div>
-                      <div className="screen-content">
-                        <h1>{lead.fullName}</h1>
-                        <p>{lead.comments}</p>
-                        <div>
-                          <h2>{lead.email}</h2>
-                          <h2>{lead.phoneNumber}</h2>
-                        </div>
-                      </div>
-                      <div className="screen-action">
-                        <div>
-                          <button onClick={() => this.claimLeads(lead,index)}>Accept</button>
-                          </div>
-                      </div>
-                    </div>
-                  )
-                })
-              } */}
-
             </div>
 
           </div>
